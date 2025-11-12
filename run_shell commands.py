@@ -16,5 +16,7 @@ def create_new_file_and_add_text(file_name,text_to_be_added):
     except IOError as e:
         print(f"Error writing to file: {e}")
 
+print("Added a new branch")
+
 print_echo_statement("Hello","Sanjay!","Hope you are having fun learning Python !")
 create_new_file_and_add_text("temp.txt","Hello Sanjay!\nHope you are having a good time learning Python.\nEnjoy")
